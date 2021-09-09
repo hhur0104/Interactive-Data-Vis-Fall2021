@@ -21,3 +21,12 @@ p {
 section {
   padding: 2em 0;
 }
+
+#counter-dp {
+  font-size:2em;
+}
+#clear,
+#counter{
+  padding: 15px 32px;
+  font-size: 2em;
+}

@@ -1,14 +1,21 @@
 <!DOCTYPE html>
   <head>
     <meta charset="utf-8">
-    <title>Interactive Data Visualization Tutorial</title>
+    <title>1_3 Tutorial Assignment HH</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <h3>Tutorial Assignment: 1_3_intro_to_js </h3>
+    <h1>1_3_Tuto</h1>
+    
     <!-- add any HTML you might need here, like a button or a div -->
+    <div id="counter-dp"> 0 </div>
+    <button id="counter" onclick="updateCounterDP()">Add One</button>
+    <button id="clear" onclick="clearCounterDP()">Clear</button>
+    <h3>Enter Value for counter display:</h3>
+    <p></p>
+    <input id="num-input" />
+    <button id="num-submit" onclick="updateCounterDPwithINPUT()">Enter</button>
     <script src="main.js"></script>
   </body>
 </html>
