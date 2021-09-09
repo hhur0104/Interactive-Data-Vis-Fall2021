@@ -11,9 +11,25 @@ h1 {
 
 h3 {
   font-size: 2em;
-  margin: 0.25em 0;
+  margin: 0.50em 0;
 }
 
 p {
   font-size: 1em;
+}
+
+.us_table th {
+  border-bottom: 1px solid black;
+  padding: 0 0.5em;
+  font-size:1.5em;
+}
+.us_table td {
+  border-bottom: 1px solid black;
+  padding: 0 0.5em;
+  font-size:1.2em;
+}
+
+.us_table:hover {
+ 
+ background-color:rgb(0, 255, 179);
 }

@@ -1,18 +1,68 @@
 <!DOCTYPE html>
   <head>
     <meta charset="utf-8">
-    <title>Interactive Data Visualization Tutorial</title>
+    <title>1_2 Tutorial Assignment HH</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <h3>Tutorial Assignment: 1_2_basic_html </h3>
-    <table>
-      <!-- Add your table data here -->
+    <h1>1_2_Tuto </h1>
+    <h3>Making Table: </h3>
+    <table class="us_table">
+      <thead>
+        <tr>
+          <th colspan="4"> US Presidents in 21c </th>
+        </tr>
+        <tr>
+          <th> FirstName </th>
+          <th> LastName </th>
+          <th> Party </th>
+          <th> BeginTerm </th>
+        </tr>
+      </thead>
+      <!-- a Row -->
+      <tr>
+        <td>George</td>
+        <td>Bush</td>
+        <td>R</td>
+        <td>2001</td>
+      </tr>
+      <!-- a Row -->
+      <tr>
+        <td>Barack</td>
+        <td>Obama</td>
+        <td>D</td>
+        <td>2009</td>
+      </tr>
+      <!-- a Row -->
+      <tr>
+        <td>Donald</td>
+        <td>Trump</td>
+        <td>R</td>
+        <td>2017</td>
+      </tr>
+      <!-- a Row -->
+      <tr>
+        <td>Joe</td>
+        <td>Biden</td>
+        <td>D</td>
+        <td>2021</td>
+      </tr>
     </table>
+    <h3>Making SVG: </h3>
+    <svg width="400" height="400">
+      <rect x="0" y="0" width="350" height="100" style="fill:rgb(0, 255, 179);" />
+      <rect x="0" y="110" width="350" height="100" style="fill:rgb(255, 204, 0);" />
+      <rect x="0" y="220" width="350" height="100" style="fill:rgb(255, 140, 0);" />
+    </svg>
+    <h3>Making SVG path: </h3>
     <svg>
-      <!-- Add your rectangles in here -->
+      <path x="0" y="250"
+               d="M 10,30
+               A 20,20 0,0,1 50,30
+               A 20,20 0,0,1 90,30
+               Q 90,60 50,90
+               Q 10,60 10,30 z"/>
     </svg>
   </body>
 </html>
